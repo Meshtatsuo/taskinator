@@ -27,7 +27,7 @@ let createTaskEl = function (taskDataObj) {
 
 let addTaskHandler = function () {
   event.preventDefault();
-  debugger;
+
   event.preventDefault();
   let taskNameInput = document.querySelector("input[name='task-name']").value;
   let taskTypeInput = document.querySelector("select[name='task-type']").value;
